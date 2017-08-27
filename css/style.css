@@ -1,0 +1,326 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+/*Header*/
+header {
+  background: #1a1a1a;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.menu {
+  float: right;
+}
+.menu-main ul li {
+ display: inline-block;
+}
+
+.menu-main ul li a {
+  display: block;
+  color: #fff;
+  text-align: right;
+  line-height: 30px;
+  padding: 30px 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.menu-main ul li a:hover {
+  color: #ec3237;
+  transition: all 0.3s ease 0s;
+}
+/*Banner*/
+.banner-info {
+  background: url('../img/frontend-dev.png') no-repeat center center;
+  height: 627px;
+  background-size: cover;
+  position: relative;
+}
+
+.btn-seeMore {
+  background: rgba(0, 0, 0, 0.1);
+  color: #fff;
+  padding: 8px 24px;
+  position: absolute;
+  bottom: 130px;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+
+.btn-seeMore:hover {
+  background: #fff;
+  color: #ec3237;
+}
+
+/*About me */
+.portfolio-main {
+  padding: 70px 0;
+}
+
+.about-heading {
+  padding-bottom: 50px;
+}
+
+.about-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.about-subTitle {
+  font-size: 16px;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.job {
+  font-size: 20px;
+  margin-bottom: 25px;
+  font-weight: 500px;
+}
+
+.about-info p {
+  margin-bottom: 25px;
+}
+
+.mySocial {
+  padding-top: 25px;
+}
+
+.mySocial ul li {
+  display: inline-block;
+}
+
+.mySocial ul li a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid #999;
+  line-height: 50px;
+  font-size: 18px;
+  color: #7d7878;
+  margin-right: 10px;
+}
+
+.mySocial ul li a:hover {
+  color: #fff;
+  background: #ec3237;
+}
+
+.skill {
+  margin-top: 30px;
+  margin-bottom: 70px;
+  overflow: hidden;
+}
+
+.skill-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.skill-des {
+  line-height: 27px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #777;
+}
+
+.progress-wrap {
+  padding-top: 20px;
+}
+
+.progress {
+  height: 12px;
+  margin-top: 10px;
+}
+
+.progress-bar {
+  background: #ec3237;
+}
+
+.portfolio-main {
+  background: #f5f5f5;
+  padding: 70px 0 0;
+}
+
+.portfolio-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.portfolio-des {
+  margin-bottom: 20px;
+}
+
+.nav-tabs {
+  display: inline-block;
+  margin-bottom: 20px;
+  border-bottom: none;
+}
+
+.nav-tabs>li>a {
+  color: #444;
+  border: 2px solid #ddd;
+  border-radius: 0;
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  color: #fff;
+  background-color: #ec3237;
+  border: 1px solid #ec3237;
+  border-radius: 0;
+}
+
+.nav-tabs>li>a:hover {
+  color: #ec3237;
+  background-color: #fff;
+  border: 2px solid #ec3237;
+  border-radius: 0;
+}
+
+.portfolio-content {
+  margin-bottom: 20px;
+  background: #fff;
+}
+
+.project-name {
+  padding: 10px 0;
+  font-weight: 700;
+}
+
+.project-type {
+  padding-bottom: 10px;
+}
+
+.portfolio-item:hover .portfolio-content {
+  color: #ec3237;
+}
+
+#hireMe {
+  padding: 70px 0;
+}
+
+.hireMe-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.hireMe-des {
+  margin-bottom: 50px;
+}
+
+.formLeft-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.formLeft-des {
+  font-size: 16px;
+  font-weight: 300;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  padding: 10px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.contact-icon {
+  float: left;
+  font-size: 16px;
+  color: #777;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.contact-info p {
+  line-height: 30px;
+  color: #777;
+  font-size: 16px;
+}
+
+.mail a {
+  color: #ec3237;
+}
+
+.social {
+  padding: 10px 0;
+}
+
+.social ul li {
+  display: inline-block;
+}
+
+.social ul li a {
+  display: block;
+  color: #777;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: 1px solid #777;
+  margin-right: 10px;
+  font-size: 16px;
+}
+.social ul li a:hover {
+  color: #fff;
+  background: #ec3237;
+  border: 1px solid #ec3237;
+}
+
+.form-control {
+  padding: 20px 15px !important;
+  margin-bottom: 20px;
+}
+
+.form-control:focus {
+  border: 2px solid #444 !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.btn-sendMessage {
+  padding: 10px 20px;
+  color: #fff;
+  background: #ec3237;
+  border: 1px solid #ec3237;
+}
+
+footer {
+  padding: 0 0 30px 0;
+}
+
+footer p {
+  color: #777;
+  font-size: 16px;
+}
+
+.red-text {
+  color: #ec3237;
+}
